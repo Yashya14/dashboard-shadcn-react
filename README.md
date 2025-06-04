@@ -1,3 +1,40 @@
+# Web-Based Dashboard 📍
+
+A modern web-based dashboard built with **React**, **TypeScript**, and **ShadCN UI**. This dashboard provides a responsive, user-friendly interface for managing and visualizing data in a clean and intuitive way.
+
+## Features
+
+- Responsive design for optimal viewing on all devices
+- Interactive charts and data visualizations
+- Seamless integration with backend data (e.g., JSON or API endpoints)
+- Easy-to-use UI components from **ShadCN UI**
+
+## Tech Stack
+
+- **React**: Front-end framework
+- **TypeScript**: For type safety and better developer experience
+- **ShadCN UI**: Component library for building modern UIs
+- **Vite**: For fast development and optimized builds
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Yashya14/dashboard-shadcn-react
+
+### Install Dependencies
+
+To install the necessary dependencies, run:
+```bash
+npm install
+```
+
+To start the development server, run:
+```bash
+npm run dev
+```
+---
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
