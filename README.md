@@ -1,4 +1,4 @@
-# Web-Based Dashboard
+# Web-Based Dashboard 📍
 
 A modern web-based dashboard built with **React**, **TypeScript**, and **ShadCN UI**. This dashboard provides a responsive, user-friendly interface for managing and visualizing data in a clean and intuitive way.
 
@@ -22,6 +22,17 @@ A modern web-based dashboard built with **React**, **TypeScript**, and **ShadCN 
    ```bash
    git clone https://github.com/Yashya14/dashboard-shadcn-react
 
+### Install Dependencies
+
+To install the necessary dependencies, run:
+```bash
+npm install
+```
+
+To start the development server, run:
+```bash
+npm run dev
+```
 ---
 
 # React + TypeScript + Vite
