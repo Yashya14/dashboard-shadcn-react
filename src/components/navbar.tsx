@@ -3,7 +3,7 @@ import { Separator } from "@/components/ui/separator"
 import { SidebarTrigger } from "@/components/ui/sidebar"
 import { ModeToggle } from "@/components/mode-toggle"
 import { Tooltip } from "@/components/tooltip"
-import { Home, User, Settings, LogOut } from "lucide-react"
+import { Home, User, Settings } from "lucide-react"
 
 export function Navbar() {
     return (
@@ -28,18 +28,18 @@ export function Navbar() {
                     </Button>
                 </Tooltip>
                 <Tooltip label="Settings">
-                    <Button variant="outline" size="sm">
+                    <Button variant="outline" size="sm" className="">
                         <Settings className="h-4 w-4" />
                     </Button>
                 </Tooltip>
                 <Tooltip label="Toggle Theme">
                     <ModeToggle />
                 </Tooltip>
-                <Tooltip label="Logout">
+                {/* <Tooltip label="Logout">
                     <Button size="sm">
                         <LogOut className="h-4 w-4" /> Logout
                     </Button>
-                </Tooltip>
+                </Tooltip> */}
             </div>
         </nav>
     )

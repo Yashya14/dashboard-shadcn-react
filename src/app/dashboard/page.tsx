@@ -19,12 +19,13 @@ export default function Page() {
                 "--header-height": "calc(var(--spacing) * 12)",
             } as React.CSSProperties}
         >
-            <AppSidebar variant="inset" />
+            <AppSidebar variant="inset" /> {/*Sidebar */}
             <SidebarInset>
                 {/* Navbar only in the main content area */}
                 <div className="sticky top-0 z-40 bg-background border-b">
-                    <Navbar />
+                    <Navbar /> {/*Navbar */}
                 </div>
+                {/* Main content area */}
                 <div className="flex flex-1 flex-col">
                     <SiteHeader />
                     <div className="@container/main flex flex-1 flex-col">
@@ -33,7 +34,7 @@ export default function Page() {
                             <div className="px-4 lg:px-6">
                                 <ChartAreaInteractive />
                             </div>
-                            <DataTable data={data} />
+                            <DataTable data={data} /> {/* Data Table */}
                         </div>
                     </div>
                 </div>
